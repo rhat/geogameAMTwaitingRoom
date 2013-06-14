@@ -1,0 +1,3 @@
+# Module geogameamt
+# RPC service class, partial path of RPC policy file
+edu.psu.ist.acs.geogame.client.WaitingRoomService, 914565D7A492A1E883BD090F445395E5.gwt.rpc

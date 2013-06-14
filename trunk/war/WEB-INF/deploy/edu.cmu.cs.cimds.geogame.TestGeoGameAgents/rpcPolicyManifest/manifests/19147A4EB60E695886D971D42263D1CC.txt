@@ -1,0 +1,2 @@
+serviceClass: edu.cmu.cs.cimds.geogame.client.services.WaitingRoomService
+path: B135C1C9240D8ED9C501768966BFE7DC.gwt.rpc

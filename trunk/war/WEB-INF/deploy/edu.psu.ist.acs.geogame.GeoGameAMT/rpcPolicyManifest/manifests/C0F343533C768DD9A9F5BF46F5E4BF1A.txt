@@ -1,0 +1,2 @@
+serviceClass: edu.psu.ist.acs.geogame.client.WaitingRoomService
+path: 914565D7A492A1E883BD090F445395E5.gwt.rpc

@@ -1,0 +1,9 @@
+# Module edu.cmu.cs.cimds.geogame.TestGeoGameAgents
+# RPC service class, partial path of RPC policy file
+edu.cmu.cs.cimds.geogame.client.services.LoginService, F5725D3E6014FA5E090109A45ED94D0A.gwt.rpc
+edu.cmu.cs.cimds.geogame.client.services.WaitingRoomService, B135C1C9240D8ED9C501768966BFE7DC.gwt.rpc
+edu.cmu.cs.cimds.geogame.client.services.GameService, B78CC7E2DCC7743CA14F3F0FF1E010BE.gwt.rpc
+edu.cmu.cs.cimds.geogame.client.services.DevService, 94A44334E8B09FBA4CF725C11FE9C914.gwt.rpc
+edu.cmu.cs.cimds.geogame.client.services.AgentService, EBB7A77B3F64F37AB779120D5B334C90.gwt.rpc
+edu.cmu.cs.cimds.geogame.client.services.TestService, 0AC5E79D61D771CFC43A72765B34C5F4.gwt.rpc
+edu.cmu.cs.cimds.geogame.client.services.MessageService, B5EE0CCF53D18EAD4C348DD74A14B3E4.gwt.rpc

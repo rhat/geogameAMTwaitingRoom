@@ -1,0 +1,2 @@
+serviceClass: edu.cmu.cs.cimds.geogame.client.services.GameService
+path: 5171FFA3844B03F83AC0CBBF3AC47976.gwt.rpc

@@ -1,0 +1,2 @@
+serviceClass: edu.cmu.cs.cimds.geogame.client.services.TestService
+path: 351EEB050D9FC063456FD7A8FD933B66.gwt.rpc
