@@ -1,9 +1,9 @@
 # Module edu.cmu.cs.cimds.geogame.GeoGameAMT
 # RPC service class, partial path of RPC policy file
-edu.cmu.cs.cimds.geogame.client.services.LoginService, F5725D3E6014FA5E090109A45ED94D0A.gwt.rpc
 edu.cmu.cs.cimds.geogame.client.services.WaitingRoomService, B135C1C9240D8ED9C501768966BFE7DC.gwt.rpc
-edu.cmu.cs.cimds.geogame.client.services.GameService, B78CC7E2DCC7743CA14F3F0FF1E010BE.gwt.rpc
-edu.cmu.cs.cimds.geogame.client.services.DevService, 94A44334E8B09FBA4CF725C11FE9C914.gwt.rpc
-edu.cmu.cs.cimds.geogame.client.services.AgentService, EBB7A77B3F64F37AB779120D5B334C90.gwt.rpc
-edu.cmu.cs.cimds.geogame.client.services.TestService, 0AC5E79D61D771CFC43A72765B34C5F4.gwt.rpc
-edu.cmu.cs.cimds.geogame.client.services.MessageService, B5EE0CCF53D18EAD4C348DD74A14B3E4.gwt.rpc
+edu.cmu.cs.cimds.geogame.client.services.LoginService, A4C777ECBC0FB0F54AFB84B97BD0E23B.gwt.rpc
+edu.cmu.cs.cimds.geogame.client.services.DevService, 63E1E8AD39B26EA1B720A266EC7BE605.gwt.rpc
+edu.cmu.cs.cimds.geogame.client.services.MessageService, EC0FFEBAFFA1C969E4C12BF6B0C61B16.gwt.rpc
+edu.cmu.cs.cimds.geogame.client.services.AgentService, 195577ACE9AB6DBA08CB717745084D4C.gwt.rpc
+edu.cmu.cs.cimds.geogame.client.services.GameService, C8CD9D08CFA390E2A8450CF210F18D46.gwt.rpc
+edu.cmu.cs.cimds.geogame.client.services.TestService, 04160B8F08E12B265C521A2C7EECBABA.gwt.rpc

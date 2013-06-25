@@ -10,6 +10,7 @@ import java.util.Date;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.UUID;
 
 import javax.persistence.CascadeType;
 import javax.persistence.Column;
@@ -139,7 +140,6 @@ public class User extends PersistentEntity {
 	public String getVerifyCode(){ return verifycode; }
 	public void setVerifyCode(String code) {this.verifycode = code; }
 	
-	public static String newVerifyCode(){return java.util.UUID.randomUUID().toString();}
 	
 	//	@Transient
 //	public List<User> getNeighbors() {
