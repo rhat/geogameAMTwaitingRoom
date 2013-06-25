@@ -1568,6 +1568,7 @@ public class GameServiceImpl extends RemoteServiceServlet implements GameService
 				SecureRandom random = new SecureRandom();
 				String AMTCode = new BigInteger(130, random).toString(32);
 				newUser.setAMTCode(AMTCode);
+				newUser.setVerifyCode(User.newVerifyCode());
 			}
 			
 			List<Location> locations = (List<Location>)session.createCriteria(Location.class).list();

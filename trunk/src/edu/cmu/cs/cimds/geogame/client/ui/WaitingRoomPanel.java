@@ -305,6 +305,7 @@ public class WaitingRoomPanel extends Composite implements HasName, HasText{
 		StringBuilder s = new StringBuilder();
 		for(Integer i: x){
 			s.append(i);
+			s.append(" ");
 		}
 		return s.toString();
 	}

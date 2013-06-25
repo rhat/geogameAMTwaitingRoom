@@ -43,6 +43,7 @@ public class UserDTO implements Serializable {
 	
 	private boolean AMTVisitor = false;
 	private String AMTCode = "";
+	private String verifycode;
 	
 	private AcceptanceFormDTO currentAcceptanceFormDTO;
 	private ItemTypeDTO currentGoalItemType;
@@ -107,6 +108,7 @@ public class UserDTO implements Serializable {
 		this.currentLocation=null;
 		this.currentRoad=null;
 		this.currentRoadMovement=null;
+		this.verifycode=null;
 	}
 	
 	public void updateWithUser(User user, boolean includeNeighbors, Map<Long, UserDTO> userCacheMap) {
@@ -125,6 +127,7 @@ public class UserDTO implements Serializable {
 		this.authCode = user.getAuthCode();
 		this.AMTVisitor = user.isAMTVisitor();
 		this.AMTCode = user.getAMTCode();
+		this.verifycode = user.getVerifyCode();
 		
 		if(this.itemNameSynPairs != null)
 			this.setItemNameSynPairs(user.itemNameSynPairs);
@@ -184,6 +187,8 @@ public class UserDTO implements Serializable {
 			this.currentLocation = new LocationDTO(user.getCurrentLocation());
 		}
 		this.updatePosition();
+		
+		this.verifycode = user.getVerifyCode();
 		
 		this.forward = user.getForward();
 		this.inventory.clear();
@@ -310,6 +315,9 @@ public class UserDTO implements Serializable {
 	
 	public String getAMTCode() { return AMTCode; }
 	public void setAMTCode(String AMTCode) { this.AMTCode = AMTCode; }
+	
+	public String getVerifyCode() { return verifycode; }
+	public void setVerifyCode(String code) { this.verifycode = code;} 
 	
 	// public GGLatLng getMapPosition() { return mapPosition; }
 	// public void setMapPosition(GGLatLng mapPosition) { this.mapPosition =

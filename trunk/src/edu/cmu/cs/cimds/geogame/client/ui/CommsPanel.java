@@ -381,8 +381,8 @@ public class CommsPanel extends VerticalPanel {
 									infoText = "Game has finished!";
 								}
 								else {
-									String AMTCode = GameInfo.getInstance().getPlayer().getAMTCode();
-									infoText = "Game has finished! Here is you Amazon Mechanical Turk code:\n" + AMTCode;
+									String AMTCode = GameInfo.getInstance().getPlayer().getVerifyCode();
+									infoText = "Game has finished! Here is you Amazon Mechanical Turk code:\n" + AMTCode + "\nPlease copy/paste it into your AMT Assignment to complete this Assignment and get paid.";
 								}
 								InfoWindow alert = new InfoWindow(200, 100, infoText);
 								alert.center();

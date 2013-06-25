@@ -52,7 +52,7 @@ public class User extends PersistentEntity {
 	private Date lastRequest;
 	
 	private Long expiration;//OPTIONAL: expiration date for account, NULL means never expire
-	
+	private String verifycode;
 	
 	//Way to deal with the bidirectional ManyToMany relationship
 	//neighbors1 and neighbors2 are mapped by Hibernate
@@ -135,6 +135,12 @@ public class User extends PersistentEntity {
 	public boolean isAMTVisitor() { return AMTVisitor; }
 	public void setAMTVisitor(boolean AMTVisitor) { this.AMTVisitor = AMTVisitor; }
 
+	@Column(name="verifycode", nullable=true)
+	public String getVerifyCode(){ return verifycode; }
+	public void setVerifyCode(String code) {this.verifycode = code; }
+	
+	public static String newVerifyCode(){return java.util.UUID.randomUUID().toString();}
+	
 	//	@Transient
 //	public List<User> getNeighbors() {
 //		List<User> neighbors = new ArrayList<User>();
